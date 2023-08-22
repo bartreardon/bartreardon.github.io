@@ -14,6 +14,7 @@
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    font-size: 20px;
   }
 
   .container {
@@ -28,14 +29,17 @@
   }
 
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .buttoncontent {
+    text-align: center;
     margin-bottom: 20px;
   }
 
   .image {
-    max-width: 100%;
+    max-width: 800%;
     height: auto;
     border-radius: 8px;
   }
@@ -45,23 +49,61 @@
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    text-align: center;
+    max-width: 200px;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 2px;
+  }
+
+  a:hover {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
   }
 
   .button:hover {
     background-color: #0056b3;
+    color: white;
+  }
+
+  .monotype-text {
+    font-family: "Courier New", monospace;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
   }
 </style>
 </head>
 <body>
   <div class="container">
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget orci non ligula tristique vestibulum.</p>
+      <img src="https://img.shields.io/github/v/tag/bartreardon/swiftDialog?label=">
+      <h2>swiftDialog</h2>
+      <hr>
+      <p>swiftDialog is an open source admin utility for macOS 12 or later written in SwiftUI</p>
+      <p>Enhance your management script user experience on macOS by incorporating intuitive and captivating dialogs.</p>
+      <p>Tailor dialogs to match your brand's personality and style.</p>
+      <p>
+      <img class="image" src="https://user-images.githubusercontent.com/3598965/260624179-93f7fa7a-62e9-4a8b-8daa-1b004f1e1896.png" alt="Product Image" width="500">
+      </p>
     </div>
-    <img class="image" src="https://user-images.githubusercontent.com/3598965/260624179-93f7fa7a-62e9-4a8b-8daa-1b004f1e1896.png" alt="Product Image">
-    <a class="button" href="product-details.html">Learn More</a>
-  </div>
+    <div class="buttoncontent">
+      <a class="button" href="https://github.com/bartreardon/swiftDialog/releases">Get the Latest Release</a>
+      <br><br><br>
+      <a class="button" href="https://github.com/bartreardon/swiftDialog/wiki">Documentation</a>
+    </div>
+    <div class="content">
+    <p>Join a vibrant community on the <a href="https://www.macadmins.org">MacAdmins Slack</a> <font class="monotype-text">#swiftdialog</font> channel, share insights, tips, and experiences with swiftDialog.</p>
+</div>
+</div>
 </body>
 </html>
