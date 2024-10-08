@@ -32,6 +32,17 @@ body {
   margin-bottom: 20px;
 }
 
+.wrapper {
+  max-width: calc(1250px - (30px * 2));
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  align-items: center;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
