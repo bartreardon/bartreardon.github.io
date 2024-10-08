@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     min-height: 100vh;
     background: rgb(116,56,195);
@@ -23,7 +23,7 @@ body {
   }
 
   .content {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 20px;
   }
 
