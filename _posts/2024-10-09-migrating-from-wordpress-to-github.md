@@ -25,7 +25,7 @@ This is also relatively easy (everything here was run under macOS 15)
  - Install [brew](https://brew.sh)
  - run `brew install node.js`
  - rename your wordpress xml to `export.xml` and put it in a handy folder somewhere
- - run `npx wordpress-export-to-markdown --post-folders=false --prefix-date=true`
+ - cd to the folder where your `export.xml` file is and run `npx wordpress-export-to-markdown --post-folders=false --prefix-date=true`
    - follow the bouncing ball. this will create a folder called `Output` and all your posts and images will be downloaded and converted to markdown format
 
 ### Step 3 - Moving it all to github.io
