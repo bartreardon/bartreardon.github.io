@@ -40,6 +40,13 @@ body {
   padding-left: 30px;
 }
 
+.header-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
 .site-header {
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
