@@ -30,7 +30,7 @@ This is also relatively easy (everything here was run under macOS 15)
 
 ### Step 3 - Moving it all to github.io
 
-This one will take some finessing. I followed the post here https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html which if you follow will create a `https://yourname.github.io` site using the `minima` jekyll theme https://github.com/jekyll/minima 
+This one will take some finessing. I followed Chad Baldwin's post [here](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html) which if you follow will create a `https://yourname.github.io` site using the `minima` [jekyll theme](https://github.com/jekyll/minima)
 
 Clone your repo locally and copy over your generated markdown files and images to the `_posts` directory.
 
