@@ -38,7 +38,7 @@ From there you can modify the theme, or if you're handy about it, use another th
 
 ### The Future
 
-This makes adding a new post as easy as creating a new file in `YYYY-MM-DD-post-title.md` format and then editing as I see fit. When I'm ready I can commit and push the changes when I'm ready. 
+This makes adding a new post as easy as creating a new file in `YYYY-MM-DD-post-title.md` format and then editing as I see fit. When I'm ready I can commit and push the changes. 
 
 I also have to go over the older posts and do some minor edits as not all the images are displaying but that's something I'll use as inspiration to make future posts and perhaps fill in the blanks from the past year or so to add some "new old stock" posts about things that have happened the last time I posted something.
 

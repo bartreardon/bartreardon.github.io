@@ -47,19 +47,19 @@ div.msc-button-inner.installed:hover {
 
 Your INSTALL button for items should now be green:
 
-![](images/Screen-Shot-2018-12-30-at-10.58.04-pm-2.png)
+![](/images/Screen-Shot-2018-12-30-at-10.58.04-pm-2.png)
 
 Hover over it and it should go a lighter shade of green:
 
-![](images/Screen-Shot-2018-12-30-at-10.57.56-pm-1.png)
+![](/images/Screen-Shot-2018-12-30-at-10.57.56-pm-1.png)
 
 The REMOVE button will still look the normal grey:
 
-![](images/Screen-Shot-2018-12-30-at-10.58.16-pm-2.png)
+![](/images/Screen-Shot-2018-12-30-at-10.58.16-pm-2.png)
 
 But hover over it and it should change to red:
 
-![](images/Screen-Shot-2018-12-30-at-10.58.25-pm-2.png)
+![](/images/Screen-Shot-2018-12-30-at-10.58.25-pm-2.png)
 
 A couple of things are going on here. In base.css **div.msc-button-inner** doesn't have a value set for **transition.** We've added that in. Likewise, we added in hover for **div.msc-button-inner.installed** and **div.msc-button-inner.not-installed**. So not only can we change values that are already present, we can add new ones as well.
 

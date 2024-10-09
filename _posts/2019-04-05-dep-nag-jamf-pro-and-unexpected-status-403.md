@@ -4,7 +4,7 @@ In my org we have been rolling out Jamf Pro MDM to all new Mac devices. We are n
 
 On a number of devices though, the end users, after accepting the DEP enrolment notification, received the following error:
 
-!["Device Enrolment" installation failed. The MDM server for your organisation returned an unexpected status (403).](images/414_1251.png)
+!["Device Enrolment" installation failed. The MDM server for your organisation returned an unexpected status (403).](/images/414_1251.png)
 
 Fortunately I staged my deployment so the initial batch of 60 odd devices were the only ones targeted for the enrolment notification. Of those devices though, 12 of them had this error - as a failure rate percentage that's way too high.
 
