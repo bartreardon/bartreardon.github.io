@@ -39,26 +39,35 @@ body {
   margin-left: auto;
   padding-right: 30px;
   padding-left:30px
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 30pt;
   font-weight: 300;
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  padding: 25px;
+  padding: 0px;
 }
 
 .site-nav {
-  font-size: 26px;
+  font-size: 15pt;
   font-weight: 300;
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: right;
-  padding: 25px;
+  padding: 0px;
 }
 
 .image {
@@ -68,9 +77,35 @@ body {
   align-items: center;
 }
 
+.footer-col-wrapper {
+  font-size: 15px;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+
+.footer-col-1 {
+  width: 15%;
+}
+
+.footer-col-2 {
+  width: 50%;
+}
+.footer-col-3 {
+  width: 15%;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+  text-align: center;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
+  font-size: 10pt;
 }
 
 .post_navi-label {
