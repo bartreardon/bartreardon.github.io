@@ -12,9 +12,9 @@ This is relatively easy.
 
 Log on to wordpress, Tools -> Export and then select "Export All"
 
-<img src="images/wp1.png" width=300px>
+<img src="/images/wp1.png" width=300px>
 
-<img src="images/wp2.png" width=300px>
+<img src="/images/wp2.png" width=300px>
 
 You will then get a download of your site as an XML file called `yoursitename.wordpress.2024-10-08.000.xml` or something to that effect
 
