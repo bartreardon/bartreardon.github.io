@@ -4,16 +4,18 @@ Random ramblings about Mac admin stuff and occasional linux or general tech
 
 ---
 
-{% assign latest_post = site.posts.first %}
+<div class="latest-post">
+    {% assign latest_post = site.posts.first %}
 
-### Latest Post
+    ### Latest Post
 
-#### [{{ latest_post.title }}]({{ latest_post.url }})
+    #### [{{ latest_post.title }}]({{ latest_post.url }})
 
-_{{ latest_post.date | date: "%B %d, %Y" }}_
+    <sup>_{{ latest_post.date | date: "%B %d, %Y" }}_</sup>
 
-{{ latest_post.excerpt | strip_html }}
+    {{ latest_post.excerpt | strip_html }}
 
-[Read more...]({{ latest_post.url }})
+    [<small>Read more...]({{ latest_post.url }})</small>
+</div>
 
 ---
