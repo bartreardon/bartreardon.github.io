@@ -76,6 +76,19 @@ body {
   padding: 0px;
 }
 
+.post-list-heading {
+  font-size: 20px;
+}
+
+.post-list>li {
+  margin-bottom: 10px;
+}
+
+.post-link {
+  display: block;
+  font-size: 18px;
+}
+
 .image {
   max-width: 90%;
   height: auto;
