@@ -4,20 +4,19 @@ Random ramblings about Mac admin stuff and occasional linux or general tech
 
 ---
 
+### Latest Post
+    
+{% assign latest_post = site.posts.first %}
+
 <div class="latest-post">
-    {% assign latest_post = site.posts.first %}
-
-    <h3>Latest Post</h3>
-
-    <h4>[{{ latest_post.title }}]({{ latest_post.url }})</h4>
-
-    <sup>_{{ latest_post.date | date: "%B %d, %Y" }}_</sup>
+    <h4><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h4>
+    <sup><em>{{ latest_post.date | date: "%B %d, %Y" }}</em></sup>
 
     <div>
         {{ latest_post.excerpt | markdownify }}
     </div>
 
-    [<small>Read more...]({{ latest_post.url }})</small>
+    <small><a href="{{ latest_post.url }}">Read more ...</a></small>
 </div>
 
 ---
