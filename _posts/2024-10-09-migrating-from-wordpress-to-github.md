@@ -1,10 +1,14 @@
-## Migrating from wordpress to github
+---
+title: "Migrating from wordpress to github"
+---
 
 🎉 **First Post**
 
 At least a first post hosted on github.io (for as long as the [.io TLD still exists](https://www.computerworld.com/article/3552692/is-the-io-top-level-domain-headed-for-extinction.html))
 
 Every other post on this site was migrated over from wordpress. Issues [over there](https://www.theverge.com/2024/10/4/24262410/wordpress-fight-trademarks-open-source-mullenweg#) as well as the fact that I created this github.io 3 years ago with the intention of using it make for a good time to do this.
+
+<!--more-->
 
 ### Step 1 - Exporting everything from wordpress
 
