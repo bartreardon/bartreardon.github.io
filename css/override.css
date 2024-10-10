@@ -109,6 +109,7 @@ body {
 .post-link {
   display: block;
   font-size: 18px;
+  padding-left: 20px;
 }
 
 .image {
