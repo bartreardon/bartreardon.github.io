@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Ensure a post title argument is provided
+if [ -z "$1" ]; then
+    echo "Post Title: "
+    read -r POST_TITLE
+
+    if [ -z "$POST_TITLE" ]; then
+        echo "No post title provided. Exiting..."
+        exit 1
+    fi
+else
+    POST_TITLE="$1"
+fi
+
+# Format the current date and post title for the filename
+CURRENT_DATE=$(date +%Y-%m-%d)
+POST_TITLE_FORMATTED=$(echo "$POST_TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+FILENAME="_posts/${CURRENT_DATE}-${POST_TITLE_FORMATTED}.md"
+
+# Create the post file with the appropriate front matter
+cat <<EOF > $FILENAME
+---
+layout: post
+title: "$POST_TITLE"
+date: $CURRENT_DATE
+---
+
+<!-- This sections appears in the latest post preview -->
+
+<!--more-->
+
+<!-- This section appears in the post detail -->
+
+EOF
+
+# Notify user of the new post creation
+echo "New post created: $FILENAME"
