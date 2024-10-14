@@ -12,8 +12,58 @@ body {
   justify-content: left;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, rgba(116,56,195,1) 0%, rgba(9,9,121,1) 20%, rgba(29,195,140,1) 69%, rgba(0,212,255,1) 100%);
   font-size: 12pt;
+  background: radial-gradient(circle at 25% 25%, #61a5ff, transparent 60%),
+  radial-gradient(circle at 75% 50%, #4ca1af, transparent 60%),
+  radial-gradient(circle at 25% 75%, #2c51f7, transparent 60%),
+  radial-gradient(circle at 50% 25%, #43e9e9, transparent 60%),
+  radial-gradient(circle at 75% 75%, #3a87b7, transparent 60%);
+  background-color: #091540; /* Darker background similar to macOS style */
+  background-blend-mode: screen;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wisp {
+  position: absolute;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.wisp1 {
+  width: 600px;
+  height: 300px;
+  top: 0%;
+  left: 20%;
+  transform: rotate(45deg);
+}
+
+.wisp2 {
+  width: 800px;
+  height: 400px;
+  bottom: 45%;
+  left: -10%;
+  transform: rotate(-10deg);
+}
+
+.wisp3 {
+  width: 500px;
+  height: 250px;
+  top: 10%;
+  right: 15%;
+  transform: rotate(-60deg);
+}
+
+.wisp4 {
+  width: 700px;
+  height: 350px;
+  top: 30%;
+  right: 0%;
+  transform: rotate(0deg);
 }
 
 .latest-post {
