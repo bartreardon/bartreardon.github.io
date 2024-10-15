@@ -20,7 +20,6 @@ body {
   radial-gradient(circle at 75% 75%, #3a87b7, transparent 60%);
   background-color: #091540; /* Darker background similar to macOS style */
   background-blend-mode: screen;
-  height: 100vh;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
