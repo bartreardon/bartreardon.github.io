@@ -52,7 +52,7 @@ Here's my script that takes another script as an argument and creates the compac
 
 [compress.sh](https://github.com/bartreardon/macscripts/blob/master/compress.sh)
 
-```bash
+```
 #!/bin/zsh
 
 # compress a script into a bzip2 compressed base64 encoded blob
