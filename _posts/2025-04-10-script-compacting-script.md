@@ -4,7 +4,7 @@ title: "Script compacting script"
 date: 2025-04-10
 ---
 
-![Image](https://github.com/user-attachments/assets/7b593a1c-dc5f-4447-a75a-1f89c97ab6ae)
+![Image](https://apse2.ics.services.jamfcloud.com/icon/hash_4a31e987a578922e7f985624101b4d8811411119fba759fef6a453d4eb9d17dc)
 
 I was thinking recently about very large shell scripts and ways to make them more compact for use in Jamf or other MDM's for macOS.
 
