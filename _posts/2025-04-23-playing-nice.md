@@ -53,6 +53,8 @@ You can validate the nice value of a running process by running:
 ps -o ni= -p "$pid"
 ```
 
+**Disclaimer:** Running `renice` on third party software should have no issues but you should verify that doing so doesn't have any adverse effects on how the software needs to operate. Testing and validation is very much recommended.
+
 _The last time `renice` was mentioned on the [MacAdmins Slack](https://www.macadmins.org) was in 2019 so I figured it was worth blogging about._
 
 ## Limiting CPU resources
@@ -72,7 +74,6 @@ This will limit the process to running on efficiency cores only, further improvi
 Here is a script that can perform all the above. It takes a process name as an argument and optionally a nice value in the range of -20 to +20. ([link](https://github.com/bartreardon/macscripts/blob/master/renice-process.sh))
 
 This would need to run after the system has booted and agents are running. An option would be to use this with an [Outset](https://github.com/macadmins/outset) `login-privileged-every` task, but could also run from an MDM or other device management framework.
-
 
 ```bash
 #!/bin/bash
