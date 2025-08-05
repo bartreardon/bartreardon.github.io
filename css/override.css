@@ -20,7 +20,6 @@ body {
   radial-gradient(circle at 75% 75%, #3a87b7, transparent 60%);
   background-color: #091540; /* Darker background similar to macOS style */
   background-blend-mode: screen;
-  margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -103,12 +102,6 @@ body {
   margin-bottom: 20px;
 }
 
-.wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
-}
 
 .header-layout {
   display: flex;
@@ -178,11 +171,6 @@ body {
   align-items: center;
 }
 
-.footer-col-wrapper {
-  font-size: 15px;
-  color: #e0e0e0;
-  text-align: center;
-}
 
 
 .footer-col-1 {
@@ -196,12 +184,6 @@ body {
   width: 15%;
 }
 
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: #e0e0e0;
-  text-align: center;
-}
 
 /* Post navigation links */
 .post_navi {
@@ -244,3 +226,219 @@ body {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* Ensure all content containers scale properly */
+.page-content,
+.wrapper {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  word-wrap: break-word;
+}
+
+/* Optional wide wrapper for main content */
+.wrapper--wide {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* Responsive images */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.post-content {
+  padding: 30px 20px;
+}
+
+
+/* Responsive tables and code blocks */
+.post-content table,
+.post-content pre,
+.post-content code {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Limit width and center post content */
+.post-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.post-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.post-title {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+  color: #222;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.post-meta {
+  font-size: 0.95em;
+  color: #888;
+  font-style: italic;
+}
+
+
+/* Improve typography and spacing on mobile */
+@media screen and (max-width: 768px) {
+  .post-content {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px 0;
+  }
+
+  .post-content h2,
+  .post-content h3,
+  .post-content h4 {
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+  .post-content p,
+  .post-content ul,
+  .post-content ol {
+    margin-bottom: 1em;
+  }
+}
+
+.site-footer {
+  background-color: #111;
+  color: #d0d0d0;
+  padding: 40px 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
+
+.site-footer .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-heading {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col .username {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #d5d5d5;
+  transition: color 0.2s ease;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+.svg-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  fill: #d5d5d5;
+}
+
+@media (min-width: 768px) {
+  .footer-col {
+    flex: 1 1 30%;
+    text-align: left;
+  }
+
+  .footer-heading {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-title {
+    text-align: center;
+    float: none;
+    width: 100%;
+    font-size: 22pt;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    z-index: 2;
+  }
+
+  .page-link {
+    font-size: 16px;
+  }
+
+  /* FULL RESET for the nav links container */
+  .site-nav {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    position: static !important;
+    z-index: auto !important;
+  }
+
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+
