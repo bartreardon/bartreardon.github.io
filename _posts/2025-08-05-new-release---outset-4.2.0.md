@@ -8,7 +8,7 @@ date: 2025-08-05
 
 Today I pushed a new release of Outset with a couple of neat new features
 
-Get it at https://github.com/macadmins/outset/releases 
+Get it at [https://github.com/macadmins/outset/releases](https://github.com/macadmins/outset/releases) 
 
 <!--more-->
 
