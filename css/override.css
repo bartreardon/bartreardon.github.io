@@ -252,20 +252,49 @@ body {
   margin: 10px auto;
 }
 
-.post-content {
-  padding: 30px 20px;
+.post-content pre {
+  background: #f6f8fa;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9em;
 }
 
-
-/* Responsive tables and code blocks */
-.post-content table,
-.post-content pre,
-.post-content code {
+/*
+.post-content pre {
   width: 100%;
   overflow-x: auto;
   display: block;
   box-sizing: border-box;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
 }
+*/
+/* Inline code */
+.post-content code {
+  display: inline;
+  font-family: monospace;
+  background-color: #f0f0f0;
+  color: #b51616;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* Code blocks */
+.post-content pre code {
+  display: block;
+  background-color: #272822; 
+  color: #f8f8f2; 
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+
 
 /* Limit width and center post content */
 .post-content {
