@@ -88,7 +88,7 @@ key_id = "d136aa66-0c3b-4bd4-9892-c20e8db024ab"
 
 #### ZSH Script:
 
-If you don't want to use python, I've ported the script to zsh as [create_client_assertion.sh](https://github.com/bartreardon/macscripts/blob/master/create_client_assertion.sh)
+If you don't want to use python, I've ported the script to zsh as [create_client_assertion.sh](https://github.com/bartreardon/macscripts/blob/master/AxM/create_client_assertion.sh)
 
 It works exactly the same as the python script. You can pass in your client id and private key or hard code them in.
 

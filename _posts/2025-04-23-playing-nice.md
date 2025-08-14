@@ -71,7 +71,7 @@ This will limit the process to running on efficiency cores only, further improvi
 
 ## Tying things together
 
-Here is a script that can perform all the above. It takes a process name as an argument and optionally a nice value in the range of -20 to +20. ([link](https://github.com/bartreardon/macscripts/blob/master/renice-process.sh))
+Here is a script that can perform all the above. It takes a process name as an argument and optionally a nice value in the range of -20 to +20. ([link](https://github.com/bartreardon/macscripts/blob/master/macos/renice-process.sh))
 
 This would need to run after the system has booted and agents are running. An option would be to use this with an [Outset](https://github.com/macadmins/outset) `login-privileged-every` task, but could also run from an MDM or other device management framework automatically or on request.
 

@@ -50,7 +50,7 @@ This worked pretty well and in the case of the Installomator script reduced from
 
 Here's my script that takes another script as an argument and creates the compacted version, ready to run.
 
-[compress.sh](https://github.com/bartreardon/macscripts/blob/master/compress.sh)
+[compress.sh](https://github.com/bartreardon/macscripts/blob/master/scripting/compress_script.sh)
 
 ```
 #!/bin/zsh
@@ -94,6 +94,6 @@ This was created more as a thought exercise but maybe someone has a use for it. 
 
 ### Related
 
-Speaking of scripts that may or may not have any utility but were fun to think about and create, this is my script for creating [self extracting scripts](https://github.com/bartreardon/macscripts/blob/master/create_self_extracting_script.sh) that extract themselves to a given target location. 
+Speaking of scripts that may or may not have any utility but were fun to think about and create, this is my script for creating [self extracting scripts](https://github.com/bartreardon/macscripts/blob/master/scripting/create_self_extracting_script.sh) that extract themselves to a given target location. 
 
 Maybe useful if you need to install a script somewhere but can't (or don't want to) create a .pkg to do the deployment for you.
