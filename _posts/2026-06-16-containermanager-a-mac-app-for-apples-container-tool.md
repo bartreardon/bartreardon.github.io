@@ -12,7 +12,7 @@ I've been tinkering with Apple's [`container`](https://github.com/apple/containe
 
 [`container`](https://github.com/apple/container) is Apple's open source tool for running Linux containers on macOS (Apple silicon). It works like docker or podman, but it's built on top of Apple's virtualization framework and designed to integrate with the OS in a more native way. It recently reached it's 1 year anniversary and 1.0 release.
 
-v1.0 came with the `container machine` command ([youtube link](https://www.youtube.com/watch?v=Q2xD6zkDz-s)), which lets you create and manage persistent Linux VMs that run the containers. However, despite being very comfortable living in the terminal, I wanted a more visual way to explore and manage containers, machines, and images without having to remember all the CLI commands.
+v1.0 came with the `container machine` command ([youtube link](https://www.youtube.com/watch?v=Q2xD6zkDz-s)), which lets you create and manage persistent Linux VMs. However, despite being very comfortable living in the terminal, I wanted a more visual way to explore and manage containers, machines, and images without having to remember all the CLI commands.
 
 ContainerManager is a native macOS app that helps you interact with containers in a more visual way. It's not a wrapper that shells out to the CLI, instead it links `container`'s own Swift client libraries and talks to the same background services directly, so the lists and actions are the same ones the `container` command uses under the hood. (It does still call the CLI for a few things: starting/stopping the services, building images, and opening a shell in Terminal.)
 
