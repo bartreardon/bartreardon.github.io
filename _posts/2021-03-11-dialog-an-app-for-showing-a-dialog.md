@@ -1,3 +1,7 @@
+---
+tags: Dialog
+---
+
 ## "“Dialog” - An app for showing a dialog
 
 Why a dialog app? Two reasons, the tool I have been using to this point was coming up short on some features I wanted to have, and I wanted an excuse to get my teeth stuck into a SwiftUI project. Also, I wanted to finally get around to releasing a tool for the mac admin community that is hopefully useful (I have a number that are useful, just not released)
@@ -10,7 +14,7 @@ At its most basic, it looks like this:
 
 <figure>
 
-![](https://breardon.home.blog/wp-content/uploads/2021/03/image.png?w=720)
+![Dialog app showing a basic message window with title, content, and OK/Cancel buttons](/images/dialog-an-app-for-showing-a-dialog-image.png)
 
 <figcaption>
 
@@ -31,7 +35,7 @@ The Title and Message areas can be specified of course. The icon image can be ei
 
 Put that together you can make something interesting:  
 
-![](https://breardon.home.blog/wp-content/uploads/2021/03/image-1.png?w=720)
+![Dialog app's Welcome to Dialog message with More Information and Open URL buttons](/images/dialog-an-app-for-showing-a-dialog-image-1.png)
 
 Dialog is only supported on macOS 11 (universal) at this point in time.
 

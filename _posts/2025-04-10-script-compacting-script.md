@@ -2,6 +2,7 @@
 layout: post
 title: "Script compacting script"
 date: 2025-04-10
+tags: Scripting
 ---
 
 ![Image](https://apse2.ics.services.jamfcloud.com/icon/hash_4a31e987a578922e7f985624101b4d8811411119fba759fef6a453d4eb9d17dc)

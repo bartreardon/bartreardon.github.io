@@ -1,3 +1,7 @@
+---
+tags: Jamf
+---
+
 ## DEP Nag, Jamf Pro and Unexpected Status (403)
 
 In my org we have been rolling out Jamf Pro MDM to all new Mac devices. We are now extending that to existing devices using the the super cool tool [UMAD](https://github.com/erikng/umad) which I am deploying to existing devices all over the country via our existing [Munki](https://github.com/munki/munki/) setup. This is a nice fancy way to run `sudo profiles renew -type enrollment` and provide a pretty dialog that gives context to the notification the user just got, allowing them ample opportunity to opt in to enrolment at a suitable time, while not letting them forget that they need to enrol (thank you UAMDM).

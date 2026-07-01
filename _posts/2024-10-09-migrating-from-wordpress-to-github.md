@@ -1,5 +1,6 @@
 ---
 title: "Migrating from wordpress to github"
+tags: Meta
 ---
 
 🎉 **First Post**

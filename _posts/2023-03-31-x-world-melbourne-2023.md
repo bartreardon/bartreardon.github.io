@@ -2,6 +2,7 @@
 layout: post
 title: "X World Melbourne 2023"
 date: 2023-03-31
+tags: Conference
 ---
 
 Video of my talk at X World Melbourne 2023 on what's new in swiftDialog 2

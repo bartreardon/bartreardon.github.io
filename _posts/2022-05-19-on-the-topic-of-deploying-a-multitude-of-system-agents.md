@@ -1,8 +1,12 @@
+---
+tags: macOS
+---
+
 ## On the topic of deploying a multitude of system agents.
 
 This post is based off a thread in the [macadmins slack](https://www.macadmins.org) that it appears no-one has blogged about yet. A heartfelt thanks for those that contributed ideas.
 
-![](https://breardon.home.blog/wp-content/uploads/2022/05/screen-shot-2022-05-19-at-11.24.50-am.png?w=1024)
+![macOS Login Items settings showing an Outset entry with 6 items, 3 of which affect all users](/images/on-the-topic-of-deploying-a-multitude-of-system-agents-screen-shot-2022-05-19-at-11.24.50-am.png)
 
 As admins we are often asked to deploy a variety of agents or system extensions onto the computers and devices we administer. These can make sense and often required, for example an inventory service or to meet some security requirement. But sometimes we're asked to deploy software that has conflicts or duplicated functionality with existing agents with little argument to prevent or at least have a discussion about the reasons or purpose. The classic case is being required to install two or more security products, each of which at best overlap in a large percentage of function or at worst, conflict and fight against each other in a battle of dominance over the device, reducing performance, battery life and the user experience.
 

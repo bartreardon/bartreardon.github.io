@@ -1,6 +1,10 @@
+---
+tags: Dialog
+---
+
 ## Things to do with Dialog
 
-It's been 5 months since the [last update](https://breardon.home.blog/2021/09/21/dialog-6-months-later/). Dialog has learned a few more tricks in that time.
+It's been 5 months since the [last update]({{ "/2021/09/21/dialog-6-months-later.html" | relative_url }}). Dialog has learned a few more tricks in that time.
 
 As workflows are capable of getting a bit more complex now, I've started a new repository which is going to contain a collection of scripts and is called, unimaginatively enough, [Dialog-scripts](https://github.com/bartreardon/Dialog-scripts). The purpose is to provide a collection of workflows that can be freely copied, modified and used as a basis for other workflows, and hopefully serve as a jumping off point for some of the more adventurous things Dialog can do.
 

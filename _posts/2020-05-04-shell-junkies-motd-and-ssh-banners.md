@@ -1,3 +1,7 @@
+---
+tags: Scripting
+---
+
 ## Shell Junkies - MOTD and SSH banners
 
 macOS presents a wonderful graphical UI but there are times where we log on, copy files or perform other work via the command line over SSH. The default experience for generic logins is rather plain but we can jazz it up a little.
@@ -19,7 +23,7 @@ echo "The weather for today is: $(curl -s 'wttr.in?format=3')" >> /etc/motd
 
 Now, whenever someone connects via ssh they will be greeted with the a message that will update daily.
 
-![](https://breardon.home.blog/wp-content/uploads/2020/05/screenshot-from-2020-05-04-22-08-38.png?w=786)
+![An SSH login showing a custom MOTD with the current date and local weather](/images/shell-junkies-motd-and-ssh-banners-screenshot-from-2020-05-04-22-08-38.png)
 
 This is great, but a user won't see the message until AFTER login. What if you want to display a message BEFORE login, such as an Acceptable Use Policy? Fortunately that's easy enough to do as well as SSHD has a method for displaying a banner on connection. Much like MOTD, the banner is just a plain text file and you can tell SSHD to display it prior to prompting for a password.
 
@@ -47,6 +51,6 @@ For a basic banner, edit the file "`/etc/banner`" and copy in the following:
 
 Now when someone logs in via SSH, they will see the text displayed in `/etc/banner` prior to entering their password. Very handy for presenting things like acceptable use policies:
 
-![](https://breardon.home.blog/wp-content/uploads/2020/05/screenshot-from-2020-05-04-22-22-55-1.png?w=786)
+![An SSH login banner showing a Conditions of Use warning before the password prompt](/images/shell-junkies-motd-and-ssh-banners-screenshot-from-2020-05-04-22-22-55-1.png)
 
 As with `/etc/motd`, you can modify `/etc/banner` as you wish with a script or the like to keep it up to date as details change, even splash a bit of colour around with [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code). Have Fun.

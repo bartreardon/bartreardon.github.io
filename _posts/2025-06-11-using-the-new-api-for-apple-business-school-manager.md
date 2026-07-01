@@ -2,6 +2,7 @@
 layout: post
 title: "Using the new API for Apple Business/School Manager"
 date: 2025-06-11
+tags: Apple
 ---
 
 WWDC 2025 brings a long awaited and exciting new feature to ABM/ASM.

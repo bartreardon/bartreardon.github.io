@@ -1,3 +1,7 @@
+---
+tags: Jamf
+---
+
 ## Jamf smart group with lots of serial numbers and a bit of regex
 
 Had a one off requirement recently to add around 100 unknown-to-jamf (not yet enrolled, not in DEP) devices to a smart group. I wanted the devices to be in the group as soon as possible so I didn't want to rely on an EA, so since I knew all the serial numbers I thought I would add these in explicitly to create the group.

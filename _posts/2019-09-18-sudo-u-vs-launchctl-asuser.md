@@ -1,3 +1,7 @@
+---
+tags: Scripting
+---
+
 ## sudo -u vs launchctl asuser
 
 _Update: Scripting OS X has an excellent post on this topic over on his blog - well worth the read https://scriptingosx.com/2020/08/running-a-command-as-another-user/_
@@ -6,7 +10,7 @@ The Other Day I was troubleshooting an issue I was having with a jamf policy tha
 
 Nothing happened and the number complete in the policy status didn't increase even after an hour or more (other than my two test machines)
 
-![](https://breardon.home.blog/wp-content/uploads/2019/09/image.png?w=183)
+![Jamf policy status showing 201 pending, 2 completed, 0 failed](/images/sudo-u-vs-launchctl-asuser-image.png)
 
 Troubleshooting the issue I discovered there was a problem with a notification service I had deployed (a custom fork of the excellent yo https://github.com/sheagcraig/yo ). The policy was running but the notifications were not being sent. There was an error in the logs to the effect that there was no display and so the entire `jamf policy` run was being held up by hours until the process eventually timed out or the machine was rebooted - nothing was running. This was strange as I had set up the script to send the notifications as the current user using `sudo -u username ...` and everything worked well in testing.
 

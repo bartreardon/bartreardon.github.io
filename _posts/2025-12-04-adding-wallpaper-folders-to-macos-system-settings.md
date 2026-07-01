@@ -2,6 +2,7 @@
 layout: post
 title: "Adding Wallpaper folders to macOS System Settings"
 date: 2025-12-04
+tags: macOS
 ---
 
 As an admin I like adding some brand flair to our macOS deployments. I also like giving end users the option to choose their flavour of flair (or none at all). When setting default desktop backgrounds there are tools and methods to get images installed, set, and made available.

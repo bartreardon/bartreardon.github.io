@@ -2,6 +2,7 @@
 layout: post
 title: "Playing Nice"
 date: 2025-04-23
+tags: macOS
 ---
 
 ![Nice Agents](/images/nice-agents.png)

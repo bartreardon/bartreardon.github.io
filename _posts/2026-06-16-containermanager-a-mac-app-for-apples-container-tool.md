@@ -2,6 +2,7 @@
 layout: post
 title: "ContainerManager - a Mac app for Apple's container tool"
 date: 2026-06-16
+tags: ContainerManager
 ---
 
 I've been tinkering with Apple's [`container`](https://github.com/apple/container) tool on and off since it was first announced a year ago and with the new features in the 1.0 release, I ended up building a GUI frontend for it and it's called ContainerManager.

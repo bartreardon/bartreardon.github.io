@@ -2,6 +2,7 @@
 layout: post
 title: "X World Melbourne 2024"
 date: 2024-05-10
+tags: Conference
 ---
 
 Many in the mac admin space make use of open source tools. Whether it's software like munki, autopkg or eraseinstall or even someone elses script, we rely on the shared work of others to get our jobs done.

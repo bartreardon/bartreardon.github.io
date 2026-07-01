@@ -260,17 +260,6 @@ body {
   font-size: 0.9em;
 }
 
-/*
-.post-content pre {
-  width: 100%;
-  overflow-x: auto;
-  display: block;
-  box-sizing: border-box;
-  background-color: #f8f8f8;
-  padding: 10px;
-  border-radius: 5px;
-}
-*/
 /* Inline code */
 .post-content code {
   display: inline;
@@ -467,6 +456,49 @@ body {
 
   .mobile-hide {
     display: none !important;
+  }
+}
+
+/* Share buttons */
+#share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#share-buttons > .share-button {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+#share-buttons > .share-button:hover,
+#share-buttons > .share-button:focus-visible {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#share-buttons > .share-button > svg {
+  height: 20px;
+  width: 20px;
+  fill: #d5d5d5;
+}
+
+.share-button.facebook:hover svg { fill: #3B5998; }
+.share-button.linkedin:hover svg { fill: #0077b5; }
+.share-button.mail:hover svg { fill: #7D7D7D; }
+
+@media (max-width: 768px) {
+  #share-buttons {
+    justify-content: center;
   }
 }
 

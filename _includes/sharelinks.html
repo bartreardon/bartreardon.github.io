@@ -1,63 +1,21 @@
-<style>
-  #share-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    align-items: center;
-    margin-top: 10px;
-  }
-
-  #share-buttons > div {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    background-color: transparent;
-    transition: background-color 0.2s ease;
-  }
-
-  #share-buttons > div:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-
-  #share-buttons > div > svg {
-    height: 20px;
-    width: 20px;
-    fill: #d5d5d5;
-  }
-
-  .facebook:hover svg { fill: #3B5998; }
-  .linkedin:hover svg { fill: #0077b5; }
-  .mail:hover svg { fill: #7D7D7D; }
-
-  @media (max-width: 768px) {
-    #share-buttons {
-      justify-content: center;
-    }
-  }
-</style>
-
 {% assign safeurl = site.url | append: page.url | url_encode %}
 {% assign safetitle = page.title | url_encode %}
 {% assign safetitlepre = "[Blog] " | append: page.author | append: " - " | url_encode %}
 
 <span style="color: silver;">Share on:</span>
 <div id="share-buttons">
-  <div class="facebook" role="button" tabindex="0" title="Share on Facebook"
+  <button type="button" class="share-button facebook" aria-label="Share on Facebook" title="Share on Facebook"
        onclick="window.open('https://www.facebook.com/share.php?u={{ safeurl }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264..."/></svg>
-  </div>
+    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+  </button>
 
-  <div class="linkedin" role="button" tabindex="0" title="Share on LinkedIn"
+  <button type="button" class="share-button linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn"
        onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ safeurl }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991..."/></svg>
-  </div>
+    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+  </button>
 
-  <div class="mail" role="button" tabindex="0" title="Share via Email"
+  <button type="button" class="share-button mail" aria-label="Share via Email" title="Share via Email"
        onclick="window.open('mailto:?&body={{ safeurl }}&subject={{ safetitlepre }}{{ safetitle }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794..."/></svg>
-  </div>
+    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+  </button>
 </div>

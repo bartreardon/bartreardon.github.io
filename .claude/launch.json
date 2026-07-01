@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll-serve",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-lc", "export PATH=\"$HOME/.rubies/ruby-3.4.1/bin:$PATH\"; exec bundle exec jekyll serve --port 4001"],
+      "port": 4001
+    }
+  ]
+}

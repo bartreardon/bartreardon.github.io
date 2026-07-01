@@ -1,3 +1,7 @@
+---
+tags: [macOS, Scripting]
+---
+
 ## Discovering non-native macOS Applications
 
 As was announced at WWDC 2020, Apple will be releasing Macs later this year running on Apple Silicon based on the ARM64 architecture. This transition will hopefully have us running universal applications but also possibly forced to run some intel only apps transcoded through Rosetta 2, depending on vendor support. As a mac admin it might be handy to know how to discover what applications on your systems don't have a version compiled for ARM (or intel 64 bit for that matter).

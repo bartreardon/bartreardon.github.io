@@ -1,3 +1,7 @@
+---
+tags: [Jamf, Scripting]
+---
+
 ## Running python scripts as the user in JAMF
 
 This is a quick one and one I use from time to time (file under "documenting little things I do but haven't written down" - may already be common knowledge even)

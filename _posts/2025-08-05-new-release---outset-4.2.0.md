@@ -2,9 +2,10 @@
 layout: post
 title: "New Release - Outset 4.2.0"
 date: 2025-08-05
+tags: Outset
 ---
 
-![](https://github.com/macadmins/outset/raw/78002def008bea2a51f793e0cd033fe71ff81c9b/Outset/Assets.xcassets/AppIcon.appiconset/Outset.png_128x128.png?raw=true)
+![The Outset app icon](https://github.com/macadmins/outset/raw/78002def008bea2a51f793e0cd033fe71ff81c9b/Outset/Assets.xcassets/AppIcon.appiconset/Outset.png_128x128.png?raw=true)
 
 Today I pushed a new release of Outset with a couple of neat new features
 

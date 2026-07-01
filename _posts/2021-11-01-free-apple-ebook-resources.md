@@ -1,3 +1,7 @@
+---
+tags: Jamf
+---
+
 ## free Apple eBook Resources
 
 If you’re like me you’re not a huge fan of writing detailed documentation. While not much can be helped with environment specifics, there is a great selection of free ebooks from Apple that covers most of the hardware, OS and application software.
@@ -6,7 +10,7 @@ For the last couple of years I’ve been making Apple eBooks available on Jamf S
 
 In Jamf Pro, go to to the “eBooks” section under “Content Management”, click the “+New” button and search. Choose “eBook available in the iBooks Store”. You can preview the book in the Books app as well to make sure you have the one you are after.
 
-![](https://breardon.home.blog/wp-content/uploads/2021/11/screen-shot-2021-11-01-at-12.32.39-pm.png?w=1024)
+![Apple Books listing for the MacBook Pro Essentials guide](/images/free-apple-ebook-resources-screen-shot-2021-11-01-at-12.32.39-pm.png)
 
 Useful books that I’ve found (search for these by title or author - Results may differ depending on what store you select, but these are whats available in the Australian Apple Books store)
 
@@ -24,7 +28,7 @@ Great to include for users of that device type, especially if they are moving fr
 
 The User Guide series covers non Mac hardware as well as Applications for each platform and how to use them
 
-![](https://breardon.home.blog/wp-content/uploads/2021/11/screen-shot-2021-11-01-at-1.21.57-pm.png?w=1024)
+![Apple Books listing for the iPad User Guide](/images/free-apple-ebook-resources-screen-shot-2021-11-01-at-1.21.57-pm.png)
 
 - iPhone
 - iPad
@@ -37,7 +41,7 @@ The User Guide series covers non Mac hardware as well as Applications for each p
 
 The Employee Starter Guides are a good resource to help new users get up to speed with using Apple devices in an organisational setting. While these can't go into detail about a specific environment, they do provide some more context that is only applicable in those environments, such as Automated Enrolment
 
-![](https://breardon.home.blog/wp-content/uploads/2021/11/screen-shot-2021-11-01-at-12.56.59-pm.png?w=1024)
+![Employee Starter Guide page explaining how to enrol a Mac into MDM](/images/free-apple-ebook-resources-screen-shot-2021-11-01-at-12.56.59-pm.png)
 
 - Employee Starter Guide for Mac
 - Employee Starter Guide for iOS and iPadOS
