@@ -1,0 +1,17 @@
+- name: Outset
+  icon: /images/outset-icon.png
+  description: Runs scripts and packages at boot, login, or on demand — an alternative to custom launchd jobs for common Mac admin workflows.
+  url: https://github.com/macadmins/outset/releases/latest
+  link_text: Latest release
+
+- name: swiftDialog
+  icon: /images/swiftdialog-icon.png
+  description: An open source utility for showing native dialogs and prompts from shell or other scripts, with support for user interaction and custom workflows.
+  url: https://swiftdialog.app
+  link_text: Website
+
+- name: ContainerManager
+  icon: /images/CM-Icon.png
+  description: A native Mac GUI for Apple's container tool — manage containers, machines, and images without living in the terminal.
+  url: https://github.com/bartreardon/ContainerManager-App/releases/latest
+  link_text: Latest release
