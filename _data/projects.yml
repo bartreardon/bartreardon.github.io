@@ -1,17 +1,41 @@
 - name: Outset
-  icon: /images/outset-icon.png
+  icon: /images/outset.png
   description: Runs scripts and packages at boot, login, or on demand — an alternative to custom launchd jobs for common Mac admin workflows.
   url: https://github.com/macadmins/outset/releases/latest
   link_text: Latest release
 
 - name: swiftDialog
-  icon: /images/swiftdialog-icon.png
+  icon: /images/sd-icon.png
   description: An open source utility for showing native dialogs and prompts from shell or other scripts, with support for user interaction and custom workflows.
   url: https://swiftdialog.app
   link_text: Website
 
-- name: ContainerManager
-  icon: /images/CM-Icon.png
+- name: Container Manager
+  icon: /images/cm-icon.png
   description: A native Mac GUI for Apple's container tool — manage containers, machines, and images without living in the terminal.
   url: https://github.com/bartreardon/ContainerManager-App/releases/latest
   link_text: Latest release
+
+- name: Wallpaper Folder Manager
+  icon: /images/terminal-icon.png
+  description: A Swift library and CLI tool for programmatically adding custom wallpaper folders to macOS System Settings.
+  url: https://github.com/bartreardon/WallpaperFolderManager/releases/latest
+  link_text: Latest release
+
+- name: Mac Picker
+  icon: /images/GitHub.png
+  description: An interactive, single-file web quiz that helps users find the right Mac for their needs.
+  url: https://github.com/bartreardon/pic-a-mac
+  link_text: GitHub
+
+- name: ABM Proxy
+  icon: /images/GitHub.png
+  description: A lightweight caching proxy/middleware for the Apple Business Manager (ABM) and Apple School Manager (ASM) APIs.
+  url: https://github.com/bartreardon/abm-proxy
+  link_text: GitHub
+
+- name: Frame
+  icon: /images/frame.png
+  description: Transform your iPad into a beautiful photo frame
+  url: https://apps.apple.com/au/app/frame/id6756805806
+  link_text: App Store

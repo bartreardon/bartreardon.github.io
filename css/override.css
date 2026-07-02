@@ -543,4 +543,14 @@ body {
   background-color: #1e3fc9;
 }
 
+.project-badge-link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.app-store-badge {
+  height: 40px;
+  width: auto;
+}
+
 
