@@ -25,7 +25,7 @@
 - name: Mac Picker
   icon: /images/GitHub.png
   description: An interactive, single-file web quiz that helps users find the right Mac for their needs.
-  url: https://github.com/bartreardon/pic-a-mac
+  url: https://github.com/bartreardon/pick-a-mac
   link_text: GitHub
 
 - name: ABM Proxy
